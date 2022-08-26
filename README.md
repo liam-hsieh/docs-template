@@ -1,6 +1,6 @@
 # docs-template
 This project is just a template of a Jekyll-theme for Github page. I slightly revised a theme I forked from Github to support some features for documentation such like mathjak or mermaid.
-You just need to download the whole template in your project repo and then rename to `docs`; or start a new project from this repo.
+You just need to download the whole template in your project repo and then rename to `docs`; or start a new project from this repo (make Gihub page from /root).
 
 `_config.yml` is the configuration file, parameters can be assigned from there if needed. All document should be put under folder `docs` and categorized by subfolders.
 Only if you understand what you are doing, please do not modify any files/folders except for `index.md`, `docs`, and `_config.yml`
