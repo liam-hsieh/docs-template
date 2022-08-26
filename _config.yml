@@ -17,11 +17,8 @@ mathjax: true
 
 
 mermaid:
-<<<<<<< HEAD
-=======
 #   # Version of mermaid library
 #   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/ and ensure it matches js version we used
->>>>>>> 9eb914094cbfe851f4ba081ddbe5bc5f9f5781c8
    version: "9.1.6"
   
 # exclude: 
