@@ -1,12 +1,15 @@
-title: Liam-Hsieh-toolbox
+title: title
 site_author: Liam Hsieh 
+site_url: https://intel-sandbox.github.io/decision-science
 team_name: Advanced Optimization and Decision Science
-team_page: team.md
+
 #remote_theme: carlosperate/jekyll-theme-rtd
 
+#insert links.html to above nav.html in base.html
+links_section: false
 
-#remote_theme: just-the-docs/just-the-docs
-#remote_theme: ryanmcdermott/jekyll-latex
+edit_on_github: false
+
 markdown: kramdown
 kramdown:
   math_engine: mathjax
@@ -14,8 +17,6 @@ mathjax: true
 
 
 mermaid:
-#   # Version of mermaid library
-#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
    version: "9.1.6"
   
 # exclude: 

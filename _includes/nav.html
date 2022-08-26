@@ -49,9 +49,11 @@
     {%- endif %}
 {%- endfor %}
 
+
+
 {%- assign sections = sections | split: "|" | uniq | sort %}
 {%- for section in sections %}
-    {%- if section != 'assets' %}    
+    {%- if section != 'assets' and section != 'team' %}    
         <p class="caption"><span class="caption-text">{{ section }}</span></p>
         {%- for nav_item in nav %}
             {%- assign path_array = nav_item.dir | split: "/" %}

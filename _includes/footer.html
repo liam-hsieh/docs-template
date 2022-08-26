@@ -14,8 +14,12 @@
 
     <div role="contentinfo">
       <p>
-        {%- if site.site_author %}
+        {%- if site.team_name %}
           This Website is maintained by {{ site.team_name }}.
+        {%- else %}
+          {%- if site.site_author %}
+            This Website is maintained by {{ site.site_author }}.
+          {%- endif %}
         {%- endif %}
         {%- if site.github.build_revision %}
           {%- if site.repo_url %}
