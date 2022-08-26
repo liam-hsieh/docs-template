@@ -4,9 +4,9 @@ team_name: Advanced Optimization and Decision Science
 team_page: team.md
 #remote_theme: carlosperate/jekyll-theme-rtd
 
+#insert links.html to above nav.html in base.html
+links_section: false
 
-#remote_theme: just-the-docs/just-the-docs
-#remote_theme: ryanmcdermott/jekyll-latex
 markdown: kramdown
 kramdown:
   math_engine: mathjax
@@ -15,7 +15,7 @@ mathjax: true
 
 mermaid:
 #   # Version of mermaid library
-#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/ and ensure it matches js version we used
    version: "9.1.6"
   
 # exclude: 
