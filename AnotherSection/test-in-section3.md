@@ -1,3 +1,3 @@
-## test file in section1
+## test file in anothersection
 
 This section doesn't have index.md
