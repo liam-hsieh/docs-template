@@ -26,7 +26,7 @@
         {%- assign array_size = path_array | size %}
         {%- if array_size == 0 %}
             {%- if nav_item.url == page.url %}
-                {%- include toc.html html=content sanitize=true h_max=4 item_class="toctree-l%level%" %}
+                {%- include toc.html html=content sanitize=true h_max=3 item_class="toctree-l%level%" %}
                 {%- if nav_item.url == page.url %}
                     {%- assign previous_page = last_loop_page %}
                     {%- assign set_next_page = true %}
@@ -60,7 +60,7 @@
             {%- assign page_section = path_array[1] %}
             {%- if page_section == section and nav_item.hide != true and nav_item.nav_exclude != true %}
                 {%- if nav_item.url == page.url %}
-                    {%- include toc.html html=content sanitize=true h_max=4 item_class="toctree-l%level%" %} 
+                    {%- include toc.html html=content sanitize=true h_max=3 item_class="toctree-l%level%" %} 
                     {%- if nav_item.url == page.url %}
                         {%- assign previous_page = last_loop_page %}
                         {%- assign set_next_page = true %}
